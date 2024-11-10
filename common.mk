@@ -19,12 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 
 # Enable virtual AB with vendor ramdisk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
-
+	
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
-# Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/sm8450-common/sm8450-common-vendor.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -53,11 +50,11 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl:64 \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.3-impl:64 \
-    vendor.qti.hardware.pal@1.0-impl:64
+#    vendor.qti.hardware.pal@1.0-impl:64
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default:64 \
-    audio.primary.taro:64 \
+#    audio.primary.taro:64 \
     audio.r_submix.default:64 \
     audio.usb.default:64 \
     sound_trigger.primary.taro:64
@@ -72,7 +69,7 @@ PRODUCT_PACKAGES += \
     libagmclient:64 \
     libagmmixer:64 \
     libbatterylistener:64 \
-    libfmpal:64 \
+#    libfmpal:64 \
     libpalclient:64 \
     libqcompostprocbundle:64 \
     libqcomvisualizer:64 \
@@ -131,13 +128,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8450/display/config/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml
 
+# FCM
+DEVICE_PRODUCT_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/xiaomi/sm8450-common/vintf/framework_extra_manifest.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    AHBF@2.1-service \
     libudfpshandler:64
 
 PRODUCT_COPY_FILES += \
@@ -382,7 +383,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service-qti \
+    android.hardware.usb@1.2-service \
     android.hardware.usb.gadget@1.2-service-qti
 
 PRODUCT_PACKAGES += \

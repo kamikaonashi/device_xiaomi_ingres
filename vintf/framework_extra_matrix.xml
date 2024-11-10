@@ -1,0 +1,794 @@
+<compatibility-matrix version="2.0" type="framework">
+    <!-- android.hardware.media.c2@1.0::IComponentStore/dolby -->
+    <hal format="hidl">
+        <name>android.hardware.media.c2</name>
+        <version>1.0</version>
+        <interface>
+            <name>IComponentStore</name>
+            <instance>dolby</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.vibrator.IVibrator/vibratorfeature (@1) -->
+    <!-- <hal format="hidl">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.dolby.hardware.dms@2.0::IDms/default -->
+    <hal format="hidl">
+        <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.cit.bluetooth@1.0::IBluetoothService/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.cit.bluetooth</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBluetoothService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.cit.wifi@1.0::IWifiService/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.cit.wifi</name>
+        <version>1.0</version>
+        <interface>
+            <name>IWifiService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.cld@1.0::ICld/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.cld</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICld</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.dtool@1.0::IDtool/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.dtool</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDtool</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.midevauth@2.0::IMidevauthService/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.midevauth</name>
+        <version>2.0</version>
+        <interface>
+            <name>IMidevauthService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mimd@1.0::IMimd/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mimd</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMimd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.miperf@1.0::IMiPerf/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.miperf</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiPerf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misight.'ILogMgr/default (@1) -->
+    <!-- <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.xiaomi.hardware.misight.IMiSight/default (@1) -->
+    <!-- <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.xiaomi.hardware.misys@1.0::IMiSys/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misys</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSys</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misys@2.0::IMiSys/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misys</name>
+        <version>2.0</version>
+        <interface>
+            <name>IMiSys</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misys@3.0::IMiSys/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misys</name>
+        <version>3.0</version>
+        <interface>
+            <name>IMiSys</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misys@4.0::IMiSys/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misys</name>
+        <version>4.0</version>
+        <interface>
+            <name>IMiSys</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mrm.IMiCertificate/default (@1) -->
+    <!-- <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.xiaomi.hardware.mrm.IMrm/default (@1) -->
+    <!-- <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.xiaomi.hardware.mrm.IMrmRemoteAuth/default (@1) -->
+    <!-- <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal> -->
+
+    <!-- vendor.xiaomi.hardware.vsimapp@1.0::IVSIMService/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.vsimapp</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVSIMService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hw.touchfeature@1.0::ITouchFeature/default -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hw.touchfeature</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchFeature</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.bluetooth.audio -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>4.0</version>
+        <interface>
+            <name>IBluetoothAudioProviderFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.cas -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.cas</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMediaCasService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.drm -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.drm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDrmFactory</name>
+            <instance>clearkey</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.health -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.health</name>
+        <version>3.0</version>
+        <interface>
+            <name>IHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.ir -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.ir</name>
+        <version>1.0</version>
+        <interface>
+            <name>IConsumerIr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.power -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.power</name>
+        <version>3.0</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.sensors -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.sensors</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.vibrator -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>2.0</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.hostapd -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>2.0</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.supplicant -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>3.0</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misight -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mrm -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.vibrator -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misight -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mrm -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.bluetooth.audio -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>4.0</version>
+        <interface>
+            <name>IBluetoothAudioProviderFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.cas -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.cas</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMediaCasService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.drm -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.drm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDrmFactory</name>
+            <instance>clearkey</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.health -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.health</name>
+        <version>3.0</version>
+        <interface>
+            <name>IHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.ir -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.ir</name>
+        <version>1.0</version>
+        <interface>
+            <name>IConsumerIr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.power -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.power</name>
+        <version>3.0</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.sensors -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.sensors</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.vibrator -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>2.0</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.hostapd -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>2.0</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.supplicant -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>3.0</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misight -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mrm -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.bluetooth.audio -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>4.0</version>
+        <interface>
+            <name>IBluetoothAudioProviderFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.cas -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.cas</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMediaCasService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.drm -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.drm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDrmFactory</name>
+            <instance>clearkey</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.health -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.health</name>
+        <version>3.0</version>
+        <interface>
+            <name>IHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.ir -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.ir</name>
+        <version>1.0</version>
+        <interface>
+            <name>IConsumerIr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.power -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.power</name>
+        <version>3.0</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.sensors -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.sensors</name>
+        <version>2.0</version>
+        <interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.vibrator -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>2.0</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.hostapd -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>2.0</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- android.hardware.wifi.supplicant -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>3.0</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.misight -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <!-- vendor.xiaomi.hardware.mrm -->
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1</version>
+        <interface>
+            <name>IMrm</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1</version>
+        <interface>
+            <name>IMiCertificate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.mrm</name>
+        <version>1</version>
+        <interface>
+            <name>IMrmRemoteAuth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.misight</name>
+        <version>1</version>
+        <interface>
+            <name>IMiSight</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ILogMgr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+    <hal format="hidl">
+        <name>android.hardware.vibrator</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <interface>
+            <name>IVibrator</name>
+            <instance>vibratorfeature</instance>
+        </interface>
+    </hal>
+
+    <!-- graphics.composer -->
+    <hal format="hidl">
+        <name>android.hardware.graphics.composer</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

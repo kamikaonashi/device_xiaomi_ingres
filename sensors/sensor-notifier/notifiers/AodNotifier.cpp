@@ -18,6 +18,10 @@
 
 static const std::string kDispFeatureDevice = "/dev/mi_display/disp_feature";
 
+#define TOUCH_MAGIC 'T'
+#define TOUCH_IOC_SET_CUR_VALUE _IO(TOUCH_MAGIC, SET_CUR_VALUE)
+#define TOUCH_IOC_GET_CUR_VALUE _IO(TOUCH_MAGIC, GET_CUR_VALUE)
+
 using android::hardware::Return;
 using android::hardware::Void;
 using android::hardware::sensors::V1_0::Event;
