@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from the proprietary version
+include vendor/xiaomi/sm8450-common/BoardConfigVendor.mk
+
 COMMON_PATH := device/xiaomi/sm8450-common
 
 # A/B
@@ -51,6 +54,7 @@ AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 
 BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 
+TARGET_PROVIDES_AUDIO_HAL ?= true
 TARGET_USES_QCOM_MM_AUDIO := true
 
 # Boot control
@@ -61,7 +65,7 @@ TARGET_BOOTLOADER_BOARD_NAME := taro
 TARGET_NO_BOOTLOADER := true
 
 # SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
+TARGET_USE_AOSP_SURFACEFLINGER := false
 
 # Camera
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
@@ -205,7 +209,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
     vendor/lineage/config/device_framework_matrix.xml \
-    device/xiaomi/sm8450-common/vintf/framework_extra_matrix.xml
+#    device/xiaomi/sm8450-common/vintf/framework_extra_matrix.xml
 
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(COMMON_PATH)/vintf/framework_manifest.xml
 

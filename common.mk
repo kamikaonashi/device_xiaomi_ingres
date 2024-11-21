@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Inherit from the proprietary version
+$(call inherit-product, vendor/xiaomi/sm8450-common/sm8450-common-vendor.mk)
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -50,11 +53,12 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0-impl:64 \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.3-impl:64 \
-#    vendor.qti.hardware.pal@1.0-impl:64
+    vendor.qti.hardware.AGMIPC@1.0-service \
+    vendor.qti.hardware.pal@1.0-impl:64
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default:64 \
-#    audio.primary.taro:64 \
+    audio.primary.taro:64 \
     audio.r_submix.default:64 \
     audio.usb.default:64 \
     sound_trigger.primary.taro:64
@@ -69,7 +73,7 @@ PRODUCT_PACKAGES += \
     libagmclient:64 \
     libagmmixer:64 \
     libbatterylistener:64 \
-#    libfmpal:64 \
+    libfmpal:64 \
     libpalclient:64 \
     libqcompostprocbundle:64 \
     libqcomvisualizer:64 \
