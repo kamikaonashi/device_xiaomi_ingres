@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer:64 \
     libqcomvoiceprocessing:64 \
     libsndcardparser:64 \
-    libvolumelistener:64
+    libvolumelistener:64 \
+    libinput_shim
 
 $(foreach sku, taro diwali cape ukee parrot, \
     $(eval PRODUCT_COPY_FILES += \
