@@ -8,8 +8,10 @@
 
 set -e
 
-DEVICE=sm8450-common
+DEVICE=ingres
 VENDOR=xiaomi
+
+export TARGET_ENABLE_CHECKELF=false
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
